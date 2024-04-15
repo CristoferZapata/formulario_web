@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario-web</title>
+    <link rel="stylesheet" href="style.css" /> 
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+    crossorigin="anonymous">
+
+</head>
+<body>
+    <header>
+        <h1>Formulario-de registro</h1>
+
+    </header>
+    <div class="container-fluid">   
+            <div class="row">   
+                <form action=" "method="POST" class="col-6 mx-auto p-5 shadow-lg">
+                    <br>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Nombre Completo</label>
+                      </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Rut</label>
+                      </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Correo</label>
+                      </div>
+                    <div class="form-floating mb-3">
+                        <input type="date" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Fecha de nacimiento</label>
+                      </div>    
+                    <div class="form-check form-check-inline">
+                        <h6>Genero</h6>
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Masculino</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Femenino</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">Otro</label>
+                      </div>
+                      <br>
+                      <div>
+                        <button type="button" class="btn btn-light">Login</button>
+                        <button type="button" class="btn btn-light">Refrescar</button>
+                      </div>
+                </form>
+            </div>
+
+    </div>
+</body>
+<script src="js/bootstrap.bundle.min.js" 
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+crossorigin="anonymous"></script>
+</html>
