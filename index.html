@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario-web</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+    <div>
+    <h1 class="item i1">Formulario de registro</h1>
+    </div>
+    </nav>
+  </header>
+  <div class="container-fluid">
+    <div class="row">
+      <form action=" " method="POST" class="col-6 mx-auto p-5 shadow-lg">
+        <br>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="floatingInput">
+          <label for="floatingInput">Nombre Completo</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="floatingInput">
+          <label for="floatingInput">Rut</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingInput">
+          <label for="floatingInput">Correo</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="password" class="form-control" id="floatingInput">
+          <label for="floatingInput">Crea una Contraseña</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="password" class="form-control" id="floatingInput">
+          <label for="floatingInput">Repita la contraseña</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="date" class="form-control" id="floatingInput">
+          <label for="floatingInput">Fecha de nacimiento</label>
+        </div>
+        <div>
+          <br>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Nivel de estudio</option>
+            <option value="1">Enseñanza Media</option>
+            <option value="2">Educacion Superior</option>
+            <option value="3">Otro</option>
+          </select>
+        </div>
+        <div id="gen">
+          <br>
+          <h6>Genero</h6>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Masculino</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Femenino</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+            <label class="form-check-label" for="inlineRadio3">Otro</label>
+          </div>
+        </div>
+        <div>
+          <br>
+          <div id="btnn">
+          <button type="subimt" class="btn btn-light" value="subimt">Crear cuenta</button>
+          <button type="reset" class="btn btn-light" value="reset">Refrescar</button>
+         </div>
+          <br>
+          <br>
+          <div id="sign">
+          <h6>Ya tienes una cuenta?</h6><br>
+          <a href="signin.html"><button type="button" class="btn btn-light">Sign in</button></a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+<script src="js/bootstrap.bundle.min.js"></script>
+
+</html>
